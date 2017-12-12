@@ -7,6 +7,7 @@
 
 import PerfectHTTP
 
+// 处理  /homeList请求
 func requestHomeListHandle(request: HTTPRequest, _ response: HTTPResponse) {
     response.setHeader(HTTPResponseHeader.Name.contentType, value: "application/json;charset=utf-8")
     response.setHeader(HTTPResponseHeader.Name.contentEncoding, value: "UTF-8")
